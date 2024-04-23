@@ -31,7 +31,7 @@ sub sort_list {
       $y = $x;
       $z = $y->{next};
       while (defined($z)) {
-        if ($y->{data} >= $z->{data}) {
+        if ($y->{data} > $z->{data}) {
           $t = $z->{next};
           $changed = 1;
           $y->{next} = $t;
