@@ -1,0 +1,7 @@
+# .cvsignore; see License.txt for copyright and terms of use
+
+a.out
+minimal_test.c
+tmp*
+out*
+

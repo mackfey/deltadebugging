@@ -1,0 +1,8 @@
+# .cvsignore; see License.txt for copyright and terms of use
+
+file1.txt
+file2.txt
+log
+multidelta.log
+*.ok
+*.bak
