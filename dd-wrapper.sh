@@ -7,5 +7,6 @@
 # You need to replace "your_interestingness_test_script"
 # by the filename of your interestingness test script.
 
-./delta/bin/delta -test=your_interestingness_test_script -cp_minimal=./min.txt < failing.txt
+./delta/bin/delta -test=dd-test.py -cp_minimal=./min.txt < failing.txt
+
 
